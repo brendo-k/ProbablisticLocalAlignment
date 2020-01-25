@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b730aa1d-63ef-492f-a754-07facd8f6394" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="271" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Comp561 Project" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UUyGwlYb5qLtH6i7HncB07oDTP" />
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.makeQuery">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bwt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bwt" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bwt" />
+      <module name="Comp561 Project" />
+      <option name="PROGRAM_PARAMETERS" value="chr22.maf.ancestors.42000000.complete.boreo.fa.txt chr22.maf.ancestors.42000000.complete.boreo.conf.txt out.txt o.txt c.txt" />
+      <option name="VM_PARAMETERS" value="-Xmx16384m " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bwtTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bwt" />
+      <module name="Comp561 Project" />
+      <option name="PROGRAM_PARAMETERS" value="test probabilities out.txt o.txt c.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="makeQuery" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="makeQuery" />
+      <module name="Comp561 Project" />
+      <option name="PROGRAM_PARAMETERS" value="100" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.bwt" />
+      <item itemvalue="Application.makeQuery" />
+      <item itemvalue="Application.bwtTest" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b730aa1d-63ef-492f-a754-07facd8f6394" name="Default Changelist" comment="" />
+      <created>1575425376462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575425376462</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/findQuery.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties>
+            <option name="NOTIFY_CAUGHT" value="false" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="biggestValue" />
+        <watch expression="match" />
+        <watch expression="sequenceIndex" />
+        <watch expression="queryIndex" />
+        <watch expression="deletion" />
+        <watch expression="insertion" />
+        <watch expression="dpTable.get(sequenceIndex).get(queryIndex)" language="JAVA" />
+        <watch expression="query.charAt(queryIndex - 1 + queryRange[0])" />
+        <watch expression="sequence.charAt(sequenceIndex - 1 + genomeRange[0])" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Comp561_Project$findQuery.ic" NAME="findQuery Coverage Results" MODIFIED="1576076457084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
